@@ -1,0 +1,23 @@
+.container{
+
+    margin-left: 70px;
+}
+
+.myprofile .user_pic{
+    width: 55px;
+    height: 55px;
+    background-color: pink;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.friendmenu{
+    font-size: 0.9em;
+    margin: 10px 15px;
+    border-top: 3px solid #aeaeae;
+    padding-top: 10px;
+}
+
+.friendmenu-header{
+    color: #464646;
+}
