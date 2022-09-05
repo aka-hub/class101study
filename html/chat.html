@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/userlist.css">
+    <link rel="stylesheet" href="../css/chat.css">
+    <link rel="stylesheet" href="../jsp/chatplus.js">
+    <script src="https://kit.fontawesome.com/bfa676badc.js" crossorigin="anonymous"></script>
+
+    <title>채팅</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="chat-screen">
+                <div class="chat-screen_bar">
+                    <div class="user chat-user">
+                        <div class="user_column">
+                            <div class="user_pic">
+
+                            </div>
+                        </div>
+
+                        <div class="user_column">
+                            <p class="user_nick">친구명</p>
+                            <p class="user_state">
+                                <i class="fa-regular fa-user"></i>
+                                인원2</p>
+                        </div>
+                    </div>
+                </div>
+                
+                    <ul class="chat-screen-commnets">
+                        <li class="comment">내용1</li>
+                        <li class="comment">내용2</li>
+
+                        <li class="comment mine">내wqewqe 내용1wweq</li>
+                        <li id="textadd" class="comment mine ">내 내용2</li>
+                    </ul>
+            </div>
+        
+
+            <form class="chat-form" onsubmit="return false;">
+                <div class="chat-form_plugin">
+                    <i class="fa-regular fa-face-smile chat-form_icon"></i>
+                    <i class="fa-sharp fa-solid fa-paperclip chat-form_icon"></i>
+                    <i class="fa-regular fa-calendar chat-form_icon"></i>
+                </div>
+                <div class="chat-form_field">
+                    <textarea class="chat-form_msg"></textarea>
+                     <input class="chat-form_bt" type="submit" value="전송"
+                     onclick="create_chat();">
+                </div>
+            </form>
+        
+        
+        </div>
+    
+    </body>
+</html>

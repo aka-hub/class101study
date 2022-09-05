@@ -19,6 +19,8 @@
 }
 
 .login .login_logo{
+
+    margin-top: 60px;
     height: 180px;
     background: url(../img/IMG_2753.PNG)
     no-repeat center / auto 100%
@@ -31,7 +33,7 @@
 .login .login_account{
 
     font-size: 0.9em;
-    color:blue;
+    color:rgb(5, 30, 29);
 
 }
 
