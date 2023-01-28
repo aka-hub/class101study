@@ -1,0 +1,136 @@
+.week{
+
+    background-color: rgb(255, 232, 232);
+    position:fixed;
+    width: 280px;
+    margin: 30px 0px 0px 40px;
+    height: 50%;
+    border-radius: 10px;
+
+
+}
+
+
+.weektitle{
+  
+    color:aliceblue;
+    text-align: center;
+    height: 40px;
+    width: 280px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.weekcontainer{
+    height: 88%;
+    position:fixed;
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y:auto;
+    position:relative;
+    top:40px;
+}
+
+.weekcontainer::-webkit-scrollbar{
+    width: 5px;
+}
+
+.weekcontainer::-webkit-scrollbar-thumb {
+    height: 0%; /* 스크롤바의 길이 */
+    background: #b6b6b6; /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+
+
+.week .weekplus{
+    background-color: rgb(255, 232, 232);
+    width: 280px;
+    height:40px;
+    position: sticky;
+    bottom: 0px;
+    border-radius: 5px;
+    color:white;
+
+
+}
+
+.weekplus .plusbox{
+    position:absolute;
+    top: 5px;
+    left:9px;
+
+}
+
+.weekplus .plusbox:active{
+    color:black;
+}
+
+
+.weekplus .datebox{
+    position:absolute;
+    top: 5px;
+    right:15px;
+
+}
+
+
+.week .weekplus input{
+    position: relative;
+    width: 210px;
+    height :30px;
+    border-radius: 5px;
+    border-color: white;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    left : 30px;
+    
+}
+
+
+.week .weekplus input:focus{
+    outline: none;
+}
+
+
+.weeklist li{
+    display: flex;
+    border-bottom: 1px solid #fff;
+    padding: 0.5rem;
+    align-items: center;
+    padding-left:0px;
+    
+}
+
+
+.todo-checked{
+    flex: 1;
+}
+.todo-checked:active{
+    color:green;
+}
+
+.todo-item{
+    flex: 8;
+    
+}
+.todo-date{
+   
+    flex: 1;
+}
+
+.todo-item .ca{
+    color:gray;
+    text-decoration-line: line-through;
+}
+
+.ca:hover{
+    
+    color:green!important;
+}

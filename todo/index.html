@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bfa676badc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/week.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>TODO</title>
+</head>
+<body>
+    <div class="container">  
+        <div class="header">
+            <h1>Todo</h1>
+        </div>
+
+        <div class="week">
+            <div class="weektitle">
+                title
+            </div>
+            <div class="weekcontainer">
+                <ul class="weeklist">
+                    <li>
+                        <span class="todo-checked" id="checked">
+                            <i class="fa-regular fa-square"></i>
+                        </span>
+                        
+                            <span class="todo-item" id='weekitem'> 할 일 </span>
+                        
+                        <span class="todo-date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </span>
+                    </li>
+                </ul>
+
+                <div class="weekplus">
+                    <div class="input-box">
+                        <div class="plusbox" onclick='pressplus()'>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <label for="todo-input"></label>
+                        <input type="text" id="todo-input">
+
+                        
+                        <div class="datebox">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="../lib/jquery-3.6.1.js"></script>
+    <script src="../todo/todo.js"></script>
+    <script src="../todo/calendar.js"></script>
+    <script src="../todo/eventplus.js"></script>
+
+    <link href="./datepicker/css/datepicker.min.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Air datepicker css -->
+    <script src="./datepicker/js/datepicker.js"></script> <!-- Air datepicker js -->
+    <script src="./datepicker/js/datepicker.ko.js"></script> <!-- 달력 한글 추가를 위해 커스텀 -->
+
+    </script>
+   
+    </script>
+ 
+</body>
+</html>

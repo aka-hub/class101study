@@ -1,0 +1,36 @@
+.sheetall{
+    width: 100%;
+    background-color: #7eafbc;
+
+
+}
+
+.inform{
+    width: 45%;
+    background-color: blueviolet;
+    font-size: 18px;
+    float:left;
+}
+
+.stats{
+    position:relative;
+    width: 50%;
+    top:0%;
+    float:right;
+    background-color: aqua;
+}
+
+.ability{
+   float:left;
+    position: relative;
+    width: 70%;
+    background-color: bisque;
+}
+
+.attr-label{
+    font-size: 20px;
+}
+.attr-input{
+    width: 30%;
+    font-size: 20px;
+}
